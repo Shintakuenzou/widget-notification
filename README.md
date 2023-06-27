@@ -1,34 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Widget de Notificação com Tema Light/Dark
+O Widget de Notificação com Tema Light/Dark é um projeto baseado no tutorial "Criando widget de notificações com Tailwind (+ tema light/dark)" da Rocketseat. Ele oferece um widget de notificação altamente personalizável, integrado com o framework CSS Tailwind, que permite adicionar facilmente recursos de notificação a qualquer aplicativo da web.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Recursos Principais
+- Exibição de Notificações: O widget permite exibir notificações com conteúdo personalizado, como texto, ícones e cores, fornecendo uma maneira eficaz de informar os usuários sobre eventos importantes.
+- Limpar Notificação: Foi adicionado um recurso que permite ao usuário limpar todas as notificações, removendo-as da lista de notificações pendentes.
+- Marcar como Concluída: Adicionei uma interação que, ao clicar em "Marcar como Concluída", todas as notificações são marcadas como lidas, fornecendo uma maneira conveniente de gerenciar as notificações.
+- Tema Light/Dark: O projeto inclui uma funcionalidade de alternância entre temas light e dark, permitindo que os usuários personalizem a aparência do widget de acordo com suas preferências.
+- Integração com o Tailwind: O widget utiliza o poderoso framework CSS Tailwind, que oferece uma ampla gama de classes utilitárias pré-definidas para facilitar a estilização e a responsividade do widget.
+- Compatibilidade Multiplataforma: O widget é construído utilizando tecnologias web padrão, como HTML, CSS e JavaScript, garantindo compatibilidade com todos os principais navegadores e frameworks front-end.
+- Responsivo e Leve: O widget é otimizado para desempenho e responsividade, garantindo uma experiência de usuário suave em dispositivos móveis e desktops, com um tamanho de código pequeno para um carregamento rápido.
